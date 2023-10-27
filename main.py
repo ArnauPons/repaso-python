@@ -15,4 +15,11 @@ print (texto + " - " + nombre+ " - " + altura + " - " + str(año))
 
 #Entrada
 sitioweb = input("¿cual es tu página web: ")
-print( "el siitio web del usuario es: "sitioweb)
+print( "el siitio web del usuario es: " + sitioweb)
+altura = 179
+
+if altura >= 170:
+    print("eres una persona alta!!!")
+
+else:
+    print("Eres BAJITO!!")
