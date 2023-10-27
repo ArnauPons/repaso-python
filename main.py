@@ -17,6 +17,20 @@ print (texto + " - " + nombre+ " - " + altura + " - " + str(año))
 sitioweb = input("¿cual es tu página web: ")
 print( "el siitio web del usuario es: " + sitioweb)
 altura = 179
+"""
+altura = int (input ("¿Cual es tu altura?:"))
+
+if altura >= 170:
+    print("eres una persona alta!!!")
+
+else:
+    print("Eres BAJITO!!")
+"""
+#funciones
+
+def mostraraltura():
+
+    altura = int (input ("¿Cual es tu altura?:"))
 
 if altura >= 170:
     print("eres una persona alta!!!")
