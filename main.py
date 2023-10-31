@@ -28,12 +28,17 @@ else:
 """
 #funciones
 
-def mostraraltura():
+var_altura = int(input("¿Cual es tu altura?: "))
 
-    altura = int (input ("¿Cual es tu altura?:"))
+def mostraraltura(altura):
+    reusltado = ""
 
-if altura >= 170:
-    print("eres una persona alta!!!")
+    if altura >= 170:
+        resultado = "Eres una persona alta!!"
 
-else:
-    print("Eres BAJITO!!")
+    else:
+        resultado = "Eres BAJITO!!"
+
+    return resultado
+
+print(mostraraltura(var_altura))
